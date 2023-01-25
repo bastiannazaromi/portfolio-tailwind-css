@@ -26,12 +26,12 @@ hamburger.addEventListener("click", function () {
 });
 
 // Klik diluar hamburger
-// window.addEventListener("click", function (e) {
-//     if (e.target != hamburger && e.target != navMenu) {
-//         hamburger.classList.remove("hamburger-active");
-//         navMenu.classList.add("hidden");
-//     }
-// });
+window.addEventListener("click", function (e) {
+    if (e.target != hamburger && e.target != navMenu) {
+        hamburger.classList.remove("hamburger-active");
+        navMenu.classList.add("hidden");
+    }
+});
 
 // Dark Mode Toggle
 const darkToggle = document.querySelector("#dark-toggle");
